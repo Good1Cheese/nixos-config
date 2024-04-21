@@ -1,6 +1,6 @@
 {
-    security = {
-        polkit.enable = true;
-        sudo.wheelNeedsPassword = false;
-    };
+  security = {
+    polkit.enable = true;
+    sudo.wheelNeedsPassword = false;
+  };
 }
