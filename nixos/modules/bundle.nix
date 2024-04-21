@@ -1,6 +1,7 @@
 {
   imports = [
     ./user.nix
+    ./steam.nix
     ./env.nix
     ./services.nix
     ./audio.nix
