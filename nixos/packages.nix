@@ -11,7 +11,8 @@
         cargo nodejs_21 jq
 
         # coding
-        alacritty fish neovim ripgrep fd silicon burpsuite shellcheck
+        alacritty fish neovim ripgrep fd silicon burpsuite
+
         # workflow
         lf doas broot fzf atool btop ncdu du-dust trash-cli
         xdragon lazygit ctpv atuin

@@ -8,6 +8,7 @@
         ./compfy.nix
         ./boot.nix
         ./security.nix
+        ./LSP.nix
         ./network.nix
         ./trim.nix
     ];
