@@ -6,6 +6,7 @@
 
   environment.systemPackages = with pkgs; [
     # utils
+    xorg.libX11
     unzip
     python3
     wget
