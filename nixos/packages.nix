@@ -6,7 +6,7 @@
 
   environment.systemPackages = with pkgs; [
     # utils
-    xorg.libX11
+    gnumake
     unzip
     python3
     wget
@@ -14,7 +14,6 @@
     steam-run
     gcc
     cmake
-    gnumake
     git
     xclip
     stow
