@@ -7,6 +7,9 @@
   environment.systemPackages = with pkgs; [
     # utils
     gnumake
+    # xorg.libX11
+    # xorg.libXft
+    sqlite
     unzip
     python3
     wget
@@ -49,7 +52,6 @@
 
     # desktop
     xwallpaper
-    udiskie
     flameshot
     redshift
     clipmenu

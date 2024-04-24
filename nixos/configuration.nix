@@ -4,8 +4,12 @@
     ./modules/bundle.nix
     ./packages.nix
     ./programs/steam.nix
+    # ./programs/dmenu.nix
     ./programs/compfy.nix
+    ./programs/udiskie.nix
   ];
+
+  environment.shellAliases = { dmenu = "~/Projects/fist-div/dmenu/dmenu-2"; };
 
   time.timeZone = "Europe/Moscow";
 
