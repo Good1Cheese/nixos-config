@@ -6,6 +6,9 @@
     lua-language-server
     stylua
 
+    # C++
+    clang-tools
+
     # bash, sh
     nodePackages.bash-language-server
     shfmt
