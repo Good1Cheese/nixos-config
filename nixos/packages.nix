@@ -7,6 +7,12 @@
   environment.systemPackages = with pkgs; [
     # utils
     gnumake
+    qbittorrent
+    gparted
+    fcitx5
+    fcitx5-configtool
+    woeusb-ng
+    polkit_gnome
     # xorg.libX11
     # xorg.libXft
     sqlite
