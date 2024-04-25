@@ -9,8 +9,9 @@
     gnumake
     qbittorrent
     gparted
-    fcitx5
-    fcitx5-configtool
+    xkb-switch
+    # fcitx5
+    # fcitx5-configtool
     woeusb-ng
     polkit_gnome
     # xorg.libX11
