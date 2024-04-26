@@ -7,7 +7,9 @@
   environment.systemPackages = with pkgs; [
     # utils
     gnumake
+    devour
     qbittorrent
+    ntfs3g
     gparted
     xkb-switch
     # fcitx5
