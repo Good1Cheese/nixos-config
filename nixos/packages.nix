@@ -12,6 +12,7 @@
     ntfs3g
     ffmpeg
     gparted
+    tabbed
     xkb-switch
     # fcitx5
     # fcitx5-configtool
@@ -60,6 +61,7 @@
     xdragon
     lazygit
     ctpv
+    ueberzugpp 
     atuin
 
     # desktop
@@ -94,5 +96,7 @@
     (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
     (nerdfonts.override { fonts = [ "NerdFontsSymbolsOnly" ]; })
+    (nerdfonts.override { fonts = [ "Mononoki" ]; })
+    # (nerdfonts.override { fonts = [ "Source Code Pro" ]; })
   ];
 }
