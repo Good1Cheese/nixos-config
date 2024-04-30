@@ -10,6 +10,7 @@
     devour
     qbittorrent
     ntfs3g
+    ffmpeg
     gparted
     xkb-switch
     # fcitx5
@@ -37,6 +38,8 @@
 
     # coding
     alacritty
+    kitty
+    pistol
     fish
     neovim
     ripgrep
@@ -81,7 +84,6 @@
   ];
 
   fonts.packages = with pkgs; [
-    (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
     # jetbrains-mono
     noto-fonts
     noto-fonts-emoji
@@ -89,6 +91,8 @@
     font-awesome
     powerline-fonts
     powerline-symbols
+    (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+    (nerdfonts.override { fonts = [ "FiraCode" ]; })
     (nerdfonts.override { fonts = [ "NerdFontsSymbolsOnly" ]; })
   ];
 }
