@@ -8,6 +8,7 @@
     # utils
     gnumake
     devour
+    any-nix-shell
     qbittorrent
     ntfs3g
     ffmpeg
@@ -50,6 +51,8 @@
 
     # workflow
     lf
+    chafa
+    ueberzug
     doas
     broot
     fzf

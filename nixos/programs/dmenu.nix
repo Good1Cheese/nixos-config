@@ -2,12 +2,10 @@
   environment.systemPackages = with pkgs;
     [
       (dmenu.overrideAttrs (oldAttrs: rec {
-        pname = "dmenu";
-        version = "2.24";
-        buildInputs = [ ] ++ oldAttrs.buildInputs;
-        src = "~/dotfiles/dmenu-3";
-        phases = [ "installPhase" ];
-        postInstall = "";
+        patches = [
+          /home/cheese/dotfiles/dmenu-patches/dmenu-highlight-4.9.diff
+          # /home/cheese/dotfiles/dmenu-patches/dmenu-brodie-theme-4.9.diff
+        ];
       }))
     ];
 }
