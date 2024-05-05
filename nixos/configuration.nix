@@ -3,10 +3,7 @@
     ./hardware-configuration.nix
     ./modules/bundle.nix
     ./packages.nix
-    ./programs/steam.nix
-    ./programs/patched_dmenu.nix
-    ./programs/compfy.nix
-    ./programs/udiskie.nix
+    ./programs/bundle.nix
   ];
 
   # environment.shellAliases = { dmenu = "~/Projects/fist-div/dmenu/dmenu-2"; };

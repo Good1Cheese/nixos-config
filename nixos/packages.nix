@@ -6,21 +6,14 @@
 
   environment.systemPackages = with pkgs; [
     # utils
+    # any-nix-shell
     gnumake
     devour
-    any-nix-shell
     qbittorrent
     ntfs3g
     ffmpeg
-    gparted
-    tabbed
     xkb-switch
-    # fcitx5
-    # fcitx5-configtool
-    woeusb-ng
     polkit_gnome
-    # xorg.libX11
-    # xorg.libXft
     sqlite
     unzip
     python3
@@ -47,6 +40,7 @@
     ripgrep
     fd
     silicon
+    bundix
     burpsuite
 
     # workflow
@@ -64,7 +58,7 @@
     xdragon
     lazygit
     ctpv
-    ueberzugpp 
+    ueberzugpp
     atuin
 
     # desktop
@@ -72,10 +66,10 @@
     flameshot
     redshift
     clipmenu
-    dmenu
-    tabbed
 
     # apps
+    gparted
+    tabbed
     heroic
     firefox
     telegram-desktop
@@ -85,6 +79,7 @@
     celluloid
     nomacs
     pavucontrol
+    woeusb-ng
     r2modman
   ];
 
