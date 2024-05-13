@@ -13,6 +13,7 @@
     ntfs3g
     ffmpeg
     xkb-switch
+	droidcam
     polkit_gnome
     sqlite
     unzip
