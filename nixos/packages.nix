@@ -9,8 +9,10 @@
     # any-nix-shell
     gnumake
     devour
+	fastfetch
     qbittorrent
 	zoxide
+	zip
     ntfs3g
     ffmpeg
     xkb-switch

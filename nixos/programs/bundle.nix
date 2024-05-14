@@ -5,6 +5,6 @@
     ./udiskie.nix
     ./direnv.nix
     ./dmenu.nix
-    ./tabbed.nix
+    # ./tabbed.nix
   ];
 }
