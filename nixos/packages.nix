@@ -10,6 +10,7 @@
     gnumake
     devour
     qbittorrent
+	zoxide
     ntfs3g
     ffmpeg
     xkb-switch
@@ -29,7 +30,7 @@
     bluez
     pcre2
     cargo
-    nodejs_21
+	nodejs_22
     jq
 
     # coding
