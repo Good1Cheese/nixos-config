@@ -34,7 +34,8 @@
 
     # coding
     alacritty
-    kitty
+	wezterm
+    # kitty
     pistol
     fish
     neovim
@@ -46,6 +47,7 @@
 
     # workflow
     lf
+	yazi
     chafa
     ueberzug
     doas
