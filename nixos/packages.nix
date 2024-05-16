@@ -12,7 +12,7 @@
     git xclip stow bluez pcre2 cargo nodejs_22 jq
 
     # coding
-    alacritty wezterm pistol fish neovim
+    alacritty wezterm pistol fish neovim kitty
     ripgrep fd ouch zoxide neovide
     transmission unar ffmpegthumbnailer poppler silicon bundix burpsuite
 
@@ -22,11 +22,11 @@
     du-dust trash-cli xdragon lazygit ctpv ueberzugpp atuin
 
     # desktop
-    xwallpaper flameshot redshift clipmenu
+    xwallpaper flameshot redshift clipmenu keepmenu
 
     # apps
     gparted tabbed heroic steam-run firefox telegram-desktop discord betterdiscordctl
-    mpv celluloid nomacs pavucontrol woeusb-ng r2modman
+    mpv celluloid nomacs pavucontrol woeusb-ng r2modman keepassxc
   ];
 
   fonts.packages = with pkgs; [
