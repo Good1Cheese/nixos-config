@@ -5,6 +5,7 @@
     ./services.nix
     ./adb.nix
     ./audio.nix
+    ./transmission.nix
     ./cleanup.nix
     ./bluetooth.nix
     ./boot.nix

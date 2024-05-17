@@ -5,11 +5,14 @@
   };
 
   environment.systemPackages = with pkgs; [
+    # nix run github:PanAeon/transg-tui
+
     # utils
     gnumake devour fastfetch qbittorrent zip ntfs3g ffmpeg
-	xkb-switch droidcam polkit_gnome bluez
+	xkb-switch droidcam polkit_gnome bluez transmission
     sqlite unzip python3 wget bat gcc cmake
     git xclip stow bluez pcre2 cargo nodejs_22 jq
+	openssl rustc
 
     # coding
     alacritty wezterm pistol fish neovim kitty
