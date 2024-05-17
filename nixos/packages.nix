@@ -7,7 +7,7 @@
   environment.systemPackages = with pkgs; [
     # utils
     gnumake devour fastfetch qbittorrent zip ntfs3g ffmpeg
-	xkb-switch droidcam polkit_gnome
+	xkb-switch droidcam polkit_gnome bluez
     sqlite unzip python3 wget bat gcc cmake
     git xclip stow bluez pcre2 cargo nodejs_22 jq
 
@@ -17,12 +17,12 @@
     transmission unar ffmpegthumbnailer poppler silicon bundix burpsuite
 
     # workflow
-    lf yazi
+    lf yazi gtrash
 	chafa ueberzug doas broot fzf atool btop ncdu
     du-dust trash-cli xdragon lazygit ctpv ueberzugpp atuin
 
     # desktop
-    xwallpaper flameshot redshift clipmenu keepmenu
+    xwallpaper flameshot redshift clipmenu keepmenu bluetuith
 
     # apps
     gparted tabbed heroic steam-run firefox telegram-desktop discord betterdiscordctl
