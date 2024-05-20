@@ -1,12 +1,12 @@
-{
+{ pkgs, inputs, ... }: {
   services = {
-    displayManager = {
-      defaultSession = "none+awesome";
-      autoLogin = {
-        enable = true;
-        user = "cheese";
-      };
-    };
+    # displayManager = {
+    #   defaultSession = "none+awesome";
+    # autoLogin = {
+    #   enable = true;
+    #   user = "cheese";
+    # };
+    # };
 
     xserver = {
       enable = true;
@@ -16,6 +16,7 @@
         options = "grp:alt_shift_toggle";
       };
 
+	  displayManager.startx.enable = true;
       windowManager.awesome = { enable = true; };
     };
   };

@@ -12,7 +12,7 @@
 	xkb-switch droidcam polkit_gnome bluez transmission
     sqlite unzip python3 wget bat gcc cmake
     git xclip stow bluez pcre2 cargo nodejs_22 jq
-	openssl rustc
+	openssl rustc figma-linux
 
     # coding
     alacritty wezterm pistol fish neovim kitty
@@ -25,6 +25,8 @@
     du-dust trash-cli xdragon lazygit ctpv ueberzugpp atuin
 
     # desktop
+	qutebrowser python311Packages.adblock
+	luakit surf
     xwallpaper flameshot redshift clipmenu keepmenu bluetuith
 
     # apps
@@ -34,12 +36,7 @@
 
   fonts.packages = with pkgs; [
     # jetbrains-mono
-    noto-fonts noto-fonts-emoji
+    noto-fonts noto-fonts-emoji nerdfonts
     twemoji-color-font font-awesome powerline-fonts powerline-symbols
-    (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
-    (nerdfonts.override { fonts = [ "FiraCode" ]; })
-    (nerdfonts.override { fonts = [ "NerdFontsSymbolsOnly" ]; })
-    (nerdfonts.override { fonts = [ "Mononoki" ]; })
-    # (nerdfonts.override { fonts = [ "Source Code Pro" ]; })
   ];
 }

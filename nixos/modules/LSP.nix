@@ -21,5 +21,8 @@
     # Ruby
     ruby
     rubyPackages.solargraph
+
+	# HTML
+	ast-grep
   ];
 }

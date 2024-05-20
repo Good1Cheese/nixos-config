@@ -6,7 +6,7 @@
 
     users.cheese = {
       isNormalUser = true;
-      description = "GoodCheese";
+      description = "cheese";
       extraGroups = [ "adbusers" "networkmanager" "wheel" "input" "libvirtd" ];
       packages = with pkgs; [ ];
     };

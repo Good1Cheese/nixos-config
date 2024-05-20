@@ -2,13 +2,14 @@
   imports = [
     ./user.nix
     ./env.nix
-    ./services.nix
+    ./xserver.nix
     ./adb.nix
     ./audio.nix
     ./transmission.nix
     ./cleanup.nix
     ./bluetooth.nix
     ./boot.nix
+    # ./displayManager.nix
     ./security.nix
     ./v4l2.nix
     ./LSP.nix
