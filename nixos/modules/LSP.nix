@@ -3,26 +3,24 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
     # Lua
-    lua-language-server
-    stylua
+    lua-language-server stylua
 
     # C++
     clang-tools
 
     # bash, sh
-    nodePackages.bash-language-server
-    shfmt
-    shellcheck
+    nodePackages.bash-language-server shfmt shellcheck
 
     # NIX
-    nil
-    nixfmt-classic
+    nil nixfmt-classic
 
     # Ruby
-    ruby
-    rubyPackages.solargraph
+    ruby rubyPackages.solargraph
 
 	# HTML
 	ast-grep
+
+	# Py
+	ruff python312Packages.python-lsp-server
   ];
 }
