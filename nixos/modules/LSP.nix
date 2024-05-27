@@ -3,7 +3,7 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
     # Lua
-    lua-language-server stylua
+    lua lua-language-server stylua
 
     # C++
     clang-tools

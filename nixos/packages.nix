@@ -8,31 +8,32 @@
     # nix run github:PanAeon/transg-tui
 
     # utils
-    gnumake devour fastfetch qbittorrent zip ntfs3g ffmpeg gifski
-	xkb-switch droidcam polkit_gnome bluez transmission
-    sqlite unzip python3 wget bat gcc cmake
-    git xclip stow bluez pcre2 cargo nodejs_22 jq
-	openssl rustc figma-linux
+    gnumake devour fastfetch zip ntfs3g
+	ffmpeg gifski xkb-switch bluez
+    unzip python3 bat gcc cmake
+    git xclip stow pcre2 cargo nodejs_22 jq
+	openssl rustc xdotool
 
     # coding
-    alacritty wezterm pistol fish neovim kitty
-    ripgrep fd ouch zoxide neovide
-    transmission unar ffmpegthumbnailer poppler silicon bundix burpsuite
+    wezterm fish neovim
+    ripgrep fd ouch neovide
+    transmission unar ffmpegthumbnailer poppler
+	silicon bundix burpsuite
 
     # workflow
-    lf yazi gtrash
+    lf yazi gtrash figma-linux
 	chafa ueberzug doas broot fzf atool btop ncdu
-    du-dust trash-cli xdragon lazygit ctpv ueberzugpp atuin
+    du-dust trash-cli xdragon lazygit ctpv
 
     # desktop
-	vieb
+	qbittorrent yarn qbittorrent
 	qutebrowser python311Packages.adblock
-	element-desktop
+	librewolf element-desktop
     xwallpaper flameshot redshift clipmenu keepmenu bluetuith
 
     # apps
-	obs-studio simplescreenrecorder
-    gparted heroic steam-run firefox telegram-desktop discord betterdiscordctl
+	simplescreenrecorder
+    gparted heroic steam-run telegram-desktop discord betterdiscordctl
     mpv celluloid nomacs pavucontrol woeusb-ng r2modman keepassxc
   ];
 

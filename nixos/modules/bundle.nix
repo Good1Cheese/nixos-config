@@ -7,6 +7,7 @@
     ./audio.nix
     ./transmission.nix
     ./cleanup.nix
+    ./cleanup.nix
     ./bluetooth.nix
     ./boot.nix
     # ./displayManager.nix
