@@ -9,6 +9,7 @@
         patches = [
           /home/cheese/nixos-config/nixos/programs/patches/p-dmenu/instant-4.6.diff
           /home/cheese/nixos-config/nixos/programs/patches/p-dmenu/border.diff
+          /home/cheese/nixos-config/nixos/programs/patches/p-dmenu/grid.diff
           # /home/cheese/dotfiles/dmenu-patches/dmenu-highlight-4.9.diff
           /home/cheese/nixos-config/nixos/programs/patches/p-dmenu/theme-4.9.diff
           # /home/cheese/dotfiles/dmenu-patches/dmenu-lineheight-5.2.diff
