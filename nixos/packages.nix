@@ -17,7 +17,7 @@
     # coding
     wezterm fish neovim
     ripgrep fd ouch neovide
-    transmission unar ffmpegthumbnailer poppler
+    transmission unar unrar-wrapper ffmpegthumbnailer poppler
 	silicon bundix burpsuite
 
     # workflow
@@ -26,13 +26,14 @@
     du-dust trash-cli xdragon lazygit ctpv
 
     # desktop
+	alacritty kitty
 	qbittorrent yarn qbittorrent
 	qutebrowser python311Packages.adblock
 	librewolf element-desktop
     xwallpaper flameshot redshift clipmenu keepmenu bluetuith
 
     # apps
-	simplescreenrecorder
+	simplescreenrecorder android-file-transfer
     gparted heroic steam-run telegram-desktop discord betterdiscordctl
     mpv celluloid nomacs pavucontrol woeusb-ng r2modman keepassxc
   ];
